@@ -15,8 +15,8 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background: linear-gradient(to right, #6a11cb, #2575fc);
-            color: #fff;
+            background: linear-gradient(to right, #fff, #fffbea);
+            color: #333;
         }
 
         /* Header Section */
@@ -45,7 +45,7 @@
             width: 150px;
             height: 150px;
             margin-bottom: 20px;
-            border: 5px solid #fff;
+            border: 5px solid #f7e8a4;
         }
 
         header a {
@@ -54,7 +54,7 @@
             padding: 10px 20px;
             font-size: 1rem;
             color: #fff;
-            background: #2575fc;
+            background: #f7b731;
             border: none;
             border-radius: 5px;
             text-decoration: none;
@@ -62,19 +62,38 @@
         }
 
         header a:hover {
-            background: #1b59c6;
+            background: #d89b26;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            color: #f7b731;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555;
         }
 
         /* Footer Section */
         footer {
-            background: #1b1b1b;
-            color: #ccc;
+            background: #f7e8a4;
+            color: #555;
             text-align: center;
             padding: 20px 10px;
         }
 
         footer a {
-            color: #2575fc;
+            color: #f7b731;
             text-decoration: none;
             margin: 0 10px;
             font-size: 1.2rem;
@@ -82,7 +101,7 @@
         }
 
         footer a:hover {
-            color: #6a11cb;
+            color: #d89b26;
         }
 
         /* Responsive Design */
@@ -114,16 +133,37 @@
 <body>
     <!-- Header Section -->
     <header>
-        <img src="khuzi.jpg" alt="Muhammad Khuzaifa's Profile Picture">
+        <img src="profile.jpg" alt="Muhammad Khuzaifa's Profile Picture">
         <h1>Muhammad Khuzaifa</h1>
         <p>Hi! I am an enthusiastic student passionate about merging technology and creativity. I specialize in Communication Systems, IoT, and AI-driven solutions. Let's create something amazing together!</p>
         <a href="#contact">Contact Me</a>
     </header>
 
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <p>- Automatic Door Lock System using ESP32 and Fingerprint Sensor.</p>
+        <p>- Data analysis with Artificial Neural Networks (Titanic Dataset).</p>
+        <p>- IoT-based Home Automation Systems.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <p>I am currently pursuing my degree at <strong>Pakistan Institute of Engineering and Applied Sciences (PIEAS)</strong>, specializing in Communication Systems and Computational Intelligence.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out for collaborations or inquiries. I’m always excited to connect with like-minded individuals!</p>
+    </section>
+
     <!-- Footer Section -->
     <footer>
         <p>Connect with me:</p>
-        <a href="https://linkedin.com/in/YourProfile" target="_blank">LinkedIn</a>
+        <a href="https://linkedin.com/in/muhammad-khuzaifa" target="_blank">LinkedIn</a>
         <a href="https://github.com/khuzaifa5188" target="_blank">GitHub</a>
         <a href="https://twitter.com/YourProfile" target="_blank">Twitter</a>
     </footer>
